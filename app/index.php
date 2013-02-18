@@ -2,16 +2,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Monocuit</title>
+        <title>stitchedinsaltaire.co.uk</title>
     </head>
     <body>
         <?php
             $db_handle = mysql_connect("localhost", "jcook", "jamesjamesjames");
-            $db_found = mysql_select_db("monocuit_co_uk", $db_handle);
+            $db_found = mysql_select_db("stitchedinsaltaire_co_uk", $db_handle);
 
             if($db_found)
             {
-                $result = mysql_query("SELECT * FROM example WHERE id=2");
+                $result = mysql_query("SELECT * FROM example WHERE id=1");
                 $db_field = mysql_fetch_assoc($result);
                 print $db_field['data'];
                 mysql_close($db_handle);
