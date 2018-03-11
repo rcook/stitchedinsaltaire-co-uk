@@ -1,0 +1,19 @@
+/* 
+    Document   : style
+    Created on : 17-May-2013, 23:22:27
+    Author     : James
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body { color: #f9ea95 ; background: #231f20; }
+
+
+a:link { color: bisque; }
+a:visited { color: bisque; }
+a:hover { color: aquamarine; }
+a:active { color: aqua; }
